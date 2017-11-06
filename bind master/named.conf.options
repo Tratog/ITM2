@@ -1,0 +1,12 @@
+options {
+        directory "/var/cache/bind";
+
+        listen-on port 53 { 127.0.0.1; 10.2.11.2; };
+        
+        forwarders {
+                8.8.8.8;
+                8.8.4.4;
+        };
+
+        auth-nxdomain no;    # conform to RFC1035
+};

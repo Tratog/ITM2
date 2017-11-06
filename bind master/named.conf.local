@@ -1,0 +1,13 @@
+zone "itm2.lan" {
+        type master;
+        file "/etc/bind/db.itm2.lan";
+        notify yes;
+        allow-transfer { 10.2.10.3; };
+};
+
+zone "2.10.in-addr.arpa" {
+        type master;
+        file "/etc/bind/db.2.10.in-addr.arpa";
+        notify yes;
+        allow-transfer { 10.2.10.3; };
+};

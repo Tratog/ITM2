@@ -1,0 +1,11 @@
+zone "itm2.lan" {
+        type slave;
+        masters { 10.2.11.2; };
+        file "/var/lib/bind/db.itm2.lan";
+};
+
+zone "2.10.in-addr.arpa" {
+        type slave;
+        masters { 10.2.11.2; };
+        file "/var/lib/bind/db.2.10.in-addr.arpa";
+};

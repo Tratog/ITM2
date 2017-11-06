@@ -1,0 +1,14 @@
+$TTL 2D
+@       IN      SOA     ns1.itm2.lan. admin.itm2.lan. (
+                        2017101801      ; Serial
+                                8H      ; Refresh
+                                2H      ; Retry
+                                4W      ; Expire
+                                3H )    ; NX (TTL Negativ Cache)
+
+@       IN      NS      ns1.itm2.lan.
+        IN      NS      ns2.itm2.lan.
+        IN      A       10.2.10.1
+
+ns1     IN      A       10.2.11.2
+ns2     IN      A       10.2.10.3
