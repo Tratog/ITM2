@@ -9,8 +9,5 @@ $TTL 2D
 @       IN      NS      ns1.itm2.lan.
         IN      NS      ns2.itm2.lan.
 
-@ORIGIN 10.2.10.in-addr.arpa.
-3    IN      PTR     ns2.itm2.lan.
-
-@ORIGIN 11.2.10.in-addr.arpa.
-2    IN      PTR     ns1.itm2.lan.
+2.11    IN      PTR     ns1.itm2.lan.
+3.10    IN      PTR     ns2.itm2.lan.
