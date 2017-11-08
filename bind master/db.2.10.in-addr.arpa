@@ -11,3 +11,6 @@ $TTL 2D
 
 2.11    IN      PTR     ns1.itm2.lan.
 3.10    IN      PTR     ns2.itm2.lan.
+
+3.11    IN      PTR     dhcp01.itm2.lan.
+3.15    IN      PTR     dhcp02.itm2.lan.
