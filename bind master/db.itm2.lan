@@ -12,6 +12,8 @@ $TTL 2D
 
 ns1         IN      A       10.2.11.2
 ns2         IN      A       10.2.10.3
+do-dns01    IN      CNAME   ns1.itm2.lan.
+do-dns02    IN      CNAME   ns2.itm2.lan.
 
 dhcp01      IN      A       10.2.11.3
 dhcp02      IN      A       10.2.15.3
